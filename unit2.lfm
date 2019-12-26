@@ -1,0 +1,73 @@
+object Form2: TForm2
+  Left = 568
+  Height = 295
+  Top = 128
+  Width = 259
+  Caption = 'Agregar producto'
+  ClientHeight = 295
+  ClientWidth = 259
+  Color = clCream
+  OnClick = FormClick
+  LCLVersion = '2.0.6.0'
+  object LabeledEdit1: TLabeledEdit
+    Left = 16
+    Height = 29
+    Top = 32
+    Width = 224
+    EditLabel.Height = 17
+    EditLabel.Width = 224
+    EditLabel.Caption = 'Nombre del producto'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Color = clGrayText
+    TabOrder = 0
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 16
+    Height = 29
+    Top = 88
+    Width = 120
+    EditLabel.Height = 17
+    EditLabel.Width = 120
+    EditLabel.Caption = 'Precio unitario (BsS)'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Color = clGrayText
+    TabOrder = 1
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 16
+    Height = 29
+    Top = 144
+    Width = 120
+    EditLabel.Height = 17
+    EditLabel.Width = 120
+    EditLabel.Caption = 'Cantidad comprada'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Color = clGrayText
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 25
+    Top = 248
+    Width = 79
+    Caption = 'Agregar'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 16
+    Height = 29
+    Top = 200
+    Width = 224
+    EditLabel.Height = 17
+    EditLabel.Width = 224
+    EditLabel.Caption = 'Código del producto'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Color = clGrayText
+    TabOrder = 4
+  end
+end
